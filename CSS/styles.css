@@ -100,7 +100,14 @@ padding-top: 30px;
 }
 
 .ITIL-img {
-  width: 46%;
+  width: 32%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 32%;
+  height: 18 rem;
   float: left;
   margin-right: 30px;
 }
