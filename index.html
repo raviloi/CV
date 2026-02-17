@@ -1,129 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravi Loi - Portfolio</title>
+
+  <style>
+    /* GLOBAL */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* TOP SECTION */
+    .top-container {
+      text-align: center;
+      padding: 100px 20px 70px;
+      background: linear-gradient(135deg, #eaf3ff, #ffffff);
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #003f7f;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    h2 {
+      color: #003f7f;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #00509e;
+      font-weight: 600;
+    }
+
+    .intro-sub {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
+    /* PROFILE */
+    .profile {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* SKILLS */
+    .skills {
+      width: 80%;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .skill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .skill-row img {
+      width: 80px;
+      height: 80px;
+    }
+
+    .atag {
+      color: #00509e;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .atag:hover {
+      text-decoration: underline;
+    }
+
+    /* HOBBIES */
+    .hobbies {
+      text-align: center;
+      padding: 25px 20px;
+    }
+
+    .para1 {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* CONTACT */
+    .contact-me {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .btn {
+      background: #00509e;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #003f7f;
+    }
+
+    /* FOOTER */
+    .bottom-container {
+      text-align: center;
+      background: #eaf3ff;
+      padding: 25px;
+    }
+
+    .footer-link {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #003f7f;
+      font-weight: 600;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+
 <body>
 
-  <!-- Top Section -->
+  <!-- TOP SECTION -->
   <div class="top-container">
-    <h1>Hi, I’m Ravi</h1>
+    <h1>Hi, I’m Ravi.</h1>
     <h3>Associate Senior Manager – Network Operations</h3>
     <p class="intro-sub">
-      Experienced in Optical Transport (OTN/DWDM), ROADM networks, Carrier Ethernet, 
-      and leading high-performing operations teams. A tech enthusiast who enjoys 
-      coding, outdoor walks, reading, and continuous self-improvement.
+      Optical Transport & Carrier Ethernet specialist with 20+ years of experience in network
+      operations, transmission technologies, automation initiatives, and leading high‑performing teams.
     </p>
   </div>
 
-
-  <!-- Profile Section -->
+  <!-- MIDDLE SECTION -->
   <div class="middle-container">
 
+    <!-- PROFILE -->
     <div class="profile">
-      <img class="profile-img" src="images/Ravi profile pic.png" alt="Ravi Profile Photo">
+      <img src="images/Ravi profile pic.png" class="profile-img" alt="Ravi Profile">
       <h2>About Me</h2>
       <p class="para">
-        I currently work as an Associate Senior Manager at Colt Technologies, leading 
-        Optical Transport and Carrier Ethernet network operations. I specialize in 
-        DWDM/OTN systems, performance improvement, automation initiatives, 
-        and team growth.
+        I am a network operations leader with strong expertise in DWDM, OTN, Carrier Ethernet,
+        ROADM systems, and large-scale service provider operations. I enjoy technology,
+        personal development, reading, and building efficient and motivated engineering teams.
       </p>
     </div>
 
-    <hr>
+    <hr />
 
-
-    <!-- Skills Section -->
+    <!-- SKILLS -->
     <div class="skills">
       <h2>My Skills</h2>
 
       <div class="skill-row">
-        <img class="OTN-img" src="images/fiber.png" alt="OTN">
-        <h3>OTN / DWDM</h3>
-        <p>
-          Experience with Huawei OSN & ASON equipment, and hands-on expertise in 
-          Ciena 6500, Infinera, ADVA, and ROADM networks including Flex-grid, CDC, 
-          RLS, and coherent optical technologies.
-        </p>
+        <img src="images/fiber.png" alt="fiber">
+        <div>
+          <h3>OTN / DWDM</h3>
+          <p>
+            Hands-on experience with Huawei OSN & ASON, Ciena 6500, Infinera DTN, ADVA, and ROADM
+            networks including Flex‑grid, CDC, RLS, and coherent optics.
+          </p>
+        </div>
       </div>
 
       <div class="skill-row">
-        <img class="MEF-img" src="images/MEF.png" alt="Carrier Ethernet">
-        <h3>Carrier Ethernet</h3>
-        <p>
-          Strong operational experience with Accedian, Ciena, NSN, and ERP-based 
-          protection architectures across large-scale service provider networks.
-        </p>
+        <img src="images/MEF.png" alt="ethernet">
+        <div>
+          <h3>Carrier Ethernet</h3>
+          <p>
+            Strong expertise with Accedian, Ciena, NSN, service performance tools,
+            and ERP‑based protection architectures across large service provider networks.
+          </p>
+        </div>
       </div>
 
       <div class="skill-row">
-        <img class="ITIL-img" src="images/ITIL.png" alt="ITIL">
-        <h3>ITIL Certified</h3>
-        <p>
-          Practical application of ITIL framework within live NOC environments for 
-          incident, change, and problem management.
-        </p>
+        <img src="images/ITIL.png" alt="itil">
+        <div>
+          <h3>ITIL Certified</h3>
+          <p>
+            Practical experience applying ITIL framework for major incident handling,
+            problem management, and operational improvement.
+          </p>
+        </div>
       </div>
 
       <div class="skill-row">
-        <img class="people-img" src="images/people.png" alt="People Leadership">
-        <h3>People Leadership</h3>
-        <p>
-          Leading, mentoring, and developing an 18-member L2 Transmission Engineering 
-          team, fostering a culture of collaboration, ownership, and excellence.
-        </p>
+        <img src="images/people.png" alt="people">
+        <div>
+          <h3>People Leadership</h3>
+          <p>
+            Leading, mentoring, and developing an 18‑member L2 Transmission Engineering team.
+            Passionate about building high‑ownership, collaborative environments.
+          </p>
+        </div>
       </div>
 
       <div class="skill-row">
-        <img class="code-img" src="images/code.jpg" alt="Coding Projects">
-        <h3>Personal Coding Projects</h3>
-        <p>
-          I enjoy exploring full-stack development and building hobby applications 
-          using JavaScript, Node.js, Express, MongoDB, APIs, and templating engines.
-        </p>
-        <a class="atag" href="https://raviloi.github.io/DrumKit/">Drum Kit App</a><br>
-        <a class="atag" href="https://todolist-eznj.onrender.com/">To‑Do List</a><br>
-        <a class="atag" href="https://submit-your-secrets-anonymously.onrender.com/">Submit Secrets</a><br>
-        <a class="atag" href="https://i-mbored-axios.onrender.com/">I’m Bored App</a><br>
-        <a class="atag" href="https://daily-blogging.onrender.com/">Daily Blogging</a><br>
-        <a class="atag" href="https://book-summary.onrender.com/">Book Summary App</a><br>
-      </div>
+        <img src="images/code.jpg" alt="code">
+        <div>
+          <h3>Personal Coding Projects</h3>
+          <p>
+            I enjoy exploring full‑stack development and building hobby applications using
+            JavaScript, Node.js, Express, MongoDB, EJS, and APIs.
+          </p>
 
+          <a class="atag" href="https://raviloi.github.io/DrumKit/">🎧 Drum Kit App</a><br>
+          <a class="atag" href="https://todolist-eznj.onrender.com/">📝 To‑Do List</a><br>
+          <a class="atag" href="https://submit-your-secrets-anonymously.onrender.com/">🔐 Submit Secrets</a><br>
+          <a class="atag" href="https://i-mbored-axios.onrender.com/">🎲 I'm Bored App</a><br>
+          <a class="atag" href="https://daily-blogging.onrender.com/">📘 Daily Blogging</a><br>
+          <a class="atag" href="https://book-summary.onrender.com/">📖 Book Summary App</a><br>
+        </div>
+      </div>
     </div>
 
-    <hr>
+    <hr />
 
-
-    <!-- Hobbies -->
+    <!-- HOBBIES -->
     <div class="hobbies">
       <h2>Hobbies</h2>
       <p class="para1">
-        Full‑stack web development, personal finance, meditation, long walks, and 
-        reading non‑fiction and technical books.
+        Full‑stack web development, meditation, personal finance, long nature walks,
+        and reading non‑fiction and technical books.
       </p>
     </div>
 
-    <hr>
+    <hr />
 
-
-    <!-- Contact -->
+    <!-- CONTACT -->
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>Let’s Connect</h3>
       <p class="para2">
-        Whether you’d like to discuss optical transport, network operations, 
-        leadership, technology trends, or a potential collaboration — feel free 
-        to reach out.
+        If you'd like to talk about technology, optical networks, leadership, or a collaboration —
+        feel free to reach out.
       </p>
       <a class="btn" href="mailto:coltravi@gmail.com">CONTACT ME</a>
     </div>
 
   </div>
 
-
-  <!-- Footer -->
+  <!-- FOOTER -->
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/your-profile-id/">LinkedIn</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/your-profile-id">LinkedIn</a>
     <a class="footer-link" href="https://www.facebook.com/RaviColt.LastManStanding/">Facebook</a>
     <a class="footer-link" href="https://newsletter-byca.onrender.com/">Newsletter</a>
 
-    <p class="copyright">© 2026 Ravi Loi</p>
+    <p>© 2026 Ravi Loi</p>
   </div>
 
 </body>
+
+</html>
